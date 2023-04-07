@@ -177,7 +177,7 @@ main{
     background-color: var(--dark-gray-blue);
     color:var(--pale-blue);
 }
-@media(min-width:376px){
+@media(min-width:641px){
     .card{
         display: grid;
         grid-template-columns: 50% 50%;
