@@ -34,7 +34,6 @@ body{
 }
 main{
     display: flex;
-    align-items: center;
     justify-content: center;
 
     min-width:100%;
@@ -178,6 +177,9 @@ main{
     color:var(--pale-blue);
 }
 @media(min-width:641px){
+    main{
+        align-items: center;
+    }
     .card{
         display: grid;
         grid-template-columns: 50% 50%;
